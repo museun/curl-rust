@@ -63,8 +63,6 @@ extern crate openssl_sys;
 extern crate winapi;
 
 #[cfg(target_env = "msvc")]
-extern crate kernel32;
-#[cfg(target_env = "msvc")]
 extern crate schannel;
 
 use std::ffi::CStr;

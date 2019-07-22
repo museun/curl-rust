@@ -10,7 +10,7 @@ use libc::{c_char, c_int, c_long, c_short, c_void};
 #[cfg(unix)]
 use libc::{fd_set, pollfd, POLLIN, POLLOUT, POLLPRI};
 #[cfg(windows)]
-use winapi::winsock2::fd_set;
+use winapi::um::winsock2::fd_set;
 
 use easy::{Easy, Easy2};
 use panic;
